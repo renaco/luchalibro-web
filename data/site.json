@@ -1,0 +1,39 @@
+{
+  "movies": [
+    {
+      "title": "Chicha tu Madre",
+      "image": "/chicha-tu-madre.png",
+      "video": "https://www.youtube.com/watch?v=10FNqoPpNbE"
+    },
+    {
+      "title": "Rosa Chumbe",
+      "image": "/rosa-chumbe.png",
+      "video": "https://www.youtube.com/watch?v=10FNqoPpNbE"
+    },
+    {
+      "title": "El día de mi suerte",
+      "image": "/el-dia-de-mi-suerte.png",
+      "video": "https://www.youtube.com/watch?v=10FNqoPpNbE"
+    },
+    {
+      "title": "Los Inocentes",
+      "image": "/los-inocentes.png",
+      "video": "https://www.youtube.com/watch?v=10FNqoPpNbE"
+    },
+    {
+      "title": "La Grabadora",
+      "image": "/la-grabadora.png",
+      "video": "https://www.youtube.com/watch?v=10FNqoPpNbE"
+    },
+    {
+      "title": "Juli",
+      "image": "/juli.png",
+      "video": "https://www.youtube.com/watch?v=10FNqoPpNbE"
+    },
+    {
+      "title": "El Jigre y la Tigrafa",
+      "image": "/el-tigre-y-la-jirafa.png",
+      "video": "https://www.youtube.com/watch?v=10FNqoPpNbE"
+    }
+  ]
+}
