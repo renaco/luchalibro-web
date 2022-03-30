@@ -1,6 +1,6 @@
 import React, { useRef } from 'react'
 import Image from 'next/image'
-import { CoverContent, CoverTitle, CoverSubtitle, CoverImageContainer, CoverBio, CoverArrowContainer } from './styles'
+import { CoverContent, CoverTitle, CoverSubtitle, CoverImageContainer, CoverImageContainerDesktop, CoverBio, CoverArrowContainer } from './styles'
 
 export const Cover = () => {
   const titleRef = useRef<HTMLHeadingElement>(null)
@@ -18,11 +18,13 @@ export const Cover = () => {
         <p>Vásquez</p>
       </CoverTitle>
       <CoverImageContainer>
-        <Image src="/christopher-mobile.jpg" layout='fill'
-          // srcset="/christopher-mobile.jpg 480px, /christopher-desktop.jpg 790px"
-          alt="Christopher Vasquez" />
+        <Image src="/christopher-mobile.jpg" layout='responsive'
+          width={428} height={250}
+          alt="Christopher Vásquez" />
       </CoverImageContainer>
-      {/* <Image src="" alt="Christopher" width={1315} height={433} /> width={428} height={250} */}
+      <CoverImageContainerDesktop>
+        <Image src="/christopher-desktop.jpg" alt="Christopher Vásquez" layout='responsive' width={1315} height={433} />
+      </CoverImageContainerDesktop>
       <CoverArrowContainer>
         <Image src="/arrow.svg" layout="responsive" alt="arrow" width={57} height={65} onClick={handlerEvent} />
       </CoverArrowContainer>

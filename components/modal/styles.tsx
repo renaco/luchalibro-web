@@ -40,8 +40,7 @@ export const ModalClose = styled.div`
   position: absolute;
   right: 10px;
   top: 10px;
-  cursor: default;
-  background: white;
+  cursor: pointer;
   padding: 5px;
   display: flex;
   justify-content: center;

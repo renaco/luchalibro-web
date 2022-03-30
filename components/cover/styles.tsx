@@ -20,9 +20,13 @@ export const CoverTitle = styled.h1`
     color: #C4C4C4;
     padding: 0;
     margin: 0;
+    @media only screen and (min-width: 1320px) {
+      line-height: .35em;
+      font-size: 90px;
+    }
     @media only screen and (min-width: 480px) {
       line-height: .75em;
-      font-size: .75em;
+      font-size: 185px;
     }
     &:first-child {
       color: black;
@@ -30,7 +34,6 @@ export const CoverTitle = styled.h1`
   }
   @media only screen and (min-width: 480px) {
     margin: 110px 0 50px;
-    font-size: 7.5em;
   }
 `
 
@@ -39,8 +42,19 @@ export const CoverImageContainer = styled.div`
   width: 100%;
   height: 300px;
   position: relative;
+  display: block;
   @media only screen and (min-width: 480px) {
-    width: 1050px;
+    display: none;
+  }
+`
+
+export const CoverImageContainerDesktop = styled.div`
+  display: none;
+  @media only screen and (min-width: 480px) {
+    display: block;
+    height: 433px;
+    width: 1315px;
+    margin: auto;
   }
 `
 

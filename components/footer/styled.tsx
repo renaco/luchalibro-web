@@ -8,17 +8,20 @@ export const FooterContainer = styled.footer`
     padding: 0;
     max-width: ${CONFIG.sizes.desktop};
   }
-`
+  `
 
 export const FooterTittle = styled.h5`
   font-family: 'Inter';
-  font-size: 60px;
+  font-size: 50px;
   font-style: normal;
   font-weight: 800;
   line-height: 160px;
   letter-spacing: 0;
   text-align: left;
   color: #D7D7D7;
+  @media only screen and (min-width: 480px) {
+    font-size: 60px;
+  }
 `
 
 export const FooterText = styled.p`
