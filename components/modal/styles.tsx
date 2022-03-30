@@ -17,9 +17,10 @@ export const ModalIframe = styled.div`
   margin: 10em auto;
   overflow: hidden;
   position: relative;
-  width: 85%;
+  width: 90%;
   @media only screen and (min-width: 480px) {
-    width: 560px;
+    width: 960px;
+    margin: 5em auto;
   }
   ::after {
     padding-top: 56.25%;

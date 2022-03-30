@@ -1,14 +1,21 @@
 import React from 'react';
-import { BannerContent, BannerStyled } from './styled'
+import { Banner, BannerContent, BannerStyled } from './styled'
 
 export const Selected = () => {
   return (
-    <BannerContent>
-      {[1, 2, 3, 4].map((item, index) => {
+    <Banner>
+      {[1, 2].map((index) => {
         return (
-          <BannerStyled key={index}>Selected / Work /</BannerStyled>
+          <BannerContent key={index}>
+            {[1, 2, 3, 4].map((i) => {
+              return (
+                <BannerStyled key={i}>Selected / Work /</BannerStyled>
+              )
+            })}
+          </BannerContent>
         )
-      })}
-    </BannerContent>
+      }
+      )}
+    </Banner>
   )
 }

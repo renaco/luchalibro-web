@@ -3,37 +3,51 @@
     {
       "title": "Chicha tu Madre",
       "image": "/chicha-tu-madre.png",
-      "video": "https://www.youtube.com/watch?v=10FNqoPpNbE"
+      "link": "https://www.youtube.com/embed/iwHXJolVKiw",
+      "type": "video",
+      "theme": "dark"
     },
     {
       "title": "Rosa Chumbe",
       "image": "/rosa-chumbe.png",
-      "video": "https://www.youtube.com/watch?v=10FNqoPpNbE"
+      "link": "https://www.youtube.com/embed/KB5EDI2jYSI",
+      "type": "video",
+      "theme": "light"
     },
     {
       "title": "El día de mi suerte",
       "image": "/el-dia-de-mi-suerte.png",
-      "video": "https://www.youtube.com/watch?v=10FNqoPpNbE"
+      "link": "https://www.youtube.com/embed/GLpru0dXp_M",
+      "type": "video",
+      "theme": "dark"
     },
     {
       "title": "Los Inocentes",
       "image": "/los-inocentes.png",
-      "video": "https://www.youtube.com/watch?v=10FNqoPpNbE"
+      "link": "https://www.instagram.com/losinocentespelicula/",
+      "type": "info",
+      "theme": "light"
     },
     {
       "title": "La Grabadora",
       "image": "/la-grabadora.png",
-      "video": "https://www.youtube.com/watch?v=10FNqoPpNbE"
+      "link": "https://www.youtube.com/embed/GLpru0dXp_M",
+      "type": "video",
+      "theme": "dark"
     },
     {
       "title": "Juli",
       "image": "/juli.png",
-      "video": "https://www.youtube.com/watch?v=10FNqoPpNbE"
+      "link": "https://pe.linkedin.com/in/christophervasquez",
+      "type": "link",
+      "theme": "light"
     },
     {
       "title": "El Jigre y la Tigrafa",
       "image": "/el-tigre-y-la-jirafa.png",
-      "video": "https://www.youtube.com/watch?v=10FNqoPpNbE"
+      "link": "https://pesopluma.net/tienda/el-jigre-y-la-tigrafa/",
+      "type": "galeria",
+      "theme": "dark"
     }
   ]
 }

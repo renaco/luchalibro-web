@@ -1,10 +1,16 @@
 import styled from 'styled-components'
 
+export const Banner = styled.div`
+  margin: 0 auto 85px auto;
+  @media only screen and (min-width: 480px) {
+    margin: 0 auto 120px auto;
+  }
+`
+
 export const BannerContent = styled.div`
   width: 100%;
   overflow-x: auto;
   display: flex;
-  /* margin: 0 auto 85px auto; */
 `
 
 export const BannerStyled = styled.pre`

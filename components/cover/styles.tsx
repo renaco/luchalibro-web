@@ -1,11 +1,11 @@
 import styled from 'styled-components'
 
-export const CoverStyled = styled.div`
+export const CoverContent = styled.div`
   margin: 0;
   padding: 0;
 `
 
-export const TitlePage = styled.h1`
+export const CoverTitle = styled.h1`
   font-family: 'Inter';
   display: flex;
   flex-direction: column;
@@ -15,21 +15,26 @@ export const TitlePage = styled.h1`
   text-align: center;
   text-transform: uppercase;
   margin: 55px 0 20px;
+  p {
+    font-size: 2.5em;
+    color: #C4C4C4;
+    padding: 0;
+    margin: 0;
+    @media only screen and (min-width: 480px) {
+      line-height: .75em;
+      font-size: .75em;
+    }
+    &:first-child {
+      color: black;
+    }
+  }
   @media only screen and (min-width: 480px) {
     margin: 110px 0 50px;
     font-size: 7.5em;
   }
 `
 
-export const TitlePageSpan = styled.span`
-  color: #C4C4C4;
-  font-size: 2.5em;
-  @media only screen and (min-width: 480px) {
-    font-size: .75em;
-  }
-`
-
-export const ImageCoverContainer = styled.div`
+export const CoverImageContainer = styled.div`
   margin: auto;
   width: 100%;
   height: 300px;
@@ -39,7 +44,7 @@ export const ImageCoverContainer = styled.div`
   }
 `
 
-export const SubtitlePage = styled.h2`
+export const CoverSubtitle = styled.h2`
   font-family: 'Azeret Mono';
   font-weight: 400;
   text-align: center;
@@ -51,7 +56,7 @@ export const SubtitlePage = styled.h2`
   }
 `
 
-export const ArrowContainer = styled.div`
+export const CoverArrowContainer = styled.div`
   display: block;
   margin: -25px auto 28px;
   width: 57px;
@@ -60,7 +65,7 @@ export const ArrowContainer = styled.div`
   }
 `
 
-export const BioPage = styled.p`
+export const CoverBio = styled.p`
   font-family: 'Azeret Mono';
   padding: 30px 40px;
   font-size: 16px;
