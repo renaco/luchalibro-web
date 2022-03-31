@@ -26,7 +26,7 @@ const SectionItem = ({ ...props }) => {
       <SectionDescription>
         <SectionTitle>{props.movie.title} </SectionTitle>
         <SectionPlay onClick={props.movie.type === 'video' ? handleModal : () => handleLink(props.movie.link)}>
-          {props.movie.type === 'video' && <Image src="/play.svg" width={50} height={50} alt={props.movie.title} />}
+          {props.movie.type === 'video' && <Image src="/play.svg" width={80} height={80} alt={props.movie.title} />}
           <SectionButton theme={props.movie.theme}>ver {props.movie.type}</SectionButton>
         </SectionPlay>
       </SectionDescription>

@@ -8,7 +8,7 @@ export const FooterContainer = styled.footer`
     padding: 0;
     max-width: ${CONFIG.sizes.desktop};
   }
-  `
+`
 
 export const FooterTittle = styled.h5`
   font-family: 'Inter';

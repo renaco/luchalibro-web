@@ -9,7 +9,7 @@ export const Selected = () => {
           <BannerContent key={index}>
             {[1, 2, 3, 4].map((i) => {
               return (
-                <BannerStyled key={i}>Selected / Work /</BannerStyled>
+                <BannerStyled key={i}> Selected / Work /</BannerStyled>
               )
             })}
           </BannerContent>

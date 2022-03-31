@@ -15,6 +15,7 @@ export const SectionImage = styled.div`
   width: 100%;
   @media only screen and (min-width: 480px) {
     width: 548px;
+    height: 781px;
   }
 `
 
@@ -54,5 +55,5 @@ export const SectionButton = styled.span`
   font-weight: 400;
   line-height: 35px;
   letter-spacing: 0;
-  padding-left: 10px;
+  padding-left: 25px;
 `

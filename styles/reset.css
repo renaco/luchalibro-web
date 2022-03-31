@@ -10,7 +10,6 @@ time, mark, audio, video {
 	padding: 0;
 	border: 0;
 	font-size: 100%;
-	font: inherit;
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
@@ -22,10 +21,7 @@ body {
   font-size: 16px;
   line-height: 1;
 }
-/* h1 {
-  margin: 0;
-  padding: 0;
-} */
+
 ol,
 ul {
   list-style: none;

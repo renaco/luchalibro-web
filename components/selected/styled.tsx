@@ -10,7 +10,9 @@ export const Banner = styled.div`
 export const BannerContent = styled.div`
   width: 100%;
   overflow-x: auto;
+  overflow-y: hidden;
   display: flex;
+  margin-bottom: 45px;
 `
 
 export const BannerStyled = styled.pre`
@@ -20,6 +22,7 @@ export const BannerStyled = styled.pre`
   line-height: 58px;
   letter-spacing: 0;
   @media only screen and (min-width: 480px) {
-    font-size: 50px;
+    font-size: 90px;
+    line-height: 75px;
   }
 `

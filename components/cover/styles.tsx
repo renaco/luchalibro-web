@@ -10,7 +10,7 @@ export const CoverTitle = styled.h1`
   display: flex;
   flex-direction: column;
   font-weight: 800;
-  line-height: 1.75em;
+  /* line-height: 1.75em; */
   letter-spacing: 0;
   text-align: center;
   text-transform: uppercase;
@@ -25,7 +25,7 @@ export const CoverTitle = styled.h1`
       font-size: 90px;
     }
     @media only screen and (min-width: 480px) {
-      line-height: .75em;
+      line-height: .875em;
       font-size: 185px;
     }
     &:first-child {
@@ -33,7 +33,7 @@ export const CoverTitle = styled.h1`
     }
   }
   @media only screen and (min-width: 480px) {
-    margin: 110px 0 50px;
+    margin: 110px 0 30px;
   }
 `
 
@@ -75,6 +75,7 @@ export const CoverArrowContainer = styled.div`
   margin: -25px auto 28px;
   width: 57px;
   @media only screen and (min-width: 480px) {
+    margin: -25px auto 70px;
     width: 105px;
   }
 `
@@ -82,7 +83,7 @@ export const CoverArrowContainer = styled.div`
 export const CoverBio = styled.p`
   font-family: 'Azeret Mono';
   padding: 30px 40px;
-  font-size: 16px;
+  font-size: 18px;
   font-style: normal;
   font-weight: 400;
   line-height: 32px;
@@ -90,5 +91,11 @@ export const CoverBio = styled.p`
   text-align: justify;
   strong {
     font-weight: 800;
+  }
+  @media only screen and (min-width: 480px) {
+    padding: 55px 0 186px;
+    max-width: 1165px;
+    margin: auto;
+    line-height: 34px;
   }
 `
