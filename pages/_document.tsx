@@ -2,11 +2,11 @@ import Document, { Head, Html, Main, NextScript } from 'next/document'
 import React from 'react'
 
 class MyDocument extends Document {
-  static async getInitialProps(ctx: any) {
-    const initialProps = await Document.getInitialProps(ctx);
-    const { head } = ctx.renderPage();
-    return { head, ...initialProps };
-  }
+  // static async getInitialProps(ctx: any) {
+  //   const initialProps = await Document.getInitialProps(ctx);
+  //   const { head } = ctx.renderPage();
+  //   return { head, ...initialProps };
+  // }
   render() {
     return (
       <Html lang="es-PE">
