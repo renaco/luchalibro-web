@@ -4,14 +4,19 @@ import { Banner, BannerContent, BannerStyled } from './styled'
 export const Selected = () => {
   return (
     <Banner>
-      {[1, 2].map((index) => {
+        {['-350px', '-100px'].map((position, index) => {
         return (
           <BannerContent key={index}>
-            {[1, 2, 3, 4].map((i) => {
-              return (
-                <BannerStyled key={i}> Selected / Work /</BannerStyled>
-              )
-            })}
+            <div style={{
+              display: 'flex',
+              transform: `translateX(${position})`
+            }}>
+              {[1, 2, 3, 4].map((i) => {
+                return (
+                  <BannerStyled key={i}> Selected / Work /</BannerStyled>
+                )
+              })}
+            </div>
           </BannerContent>
         )
       }

@@ -37,7 +37,12 @@ export const FooterText = styled.p`
 export const FooterImageContainer = styled.div`
   transform: rotate(0.5turn);
   width: 57px;
-  margin-left: auto;
+  margin-left: 0;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  @media only screen and (min-width: 480px) {
+    margin-left: auto;
+  }
 `
 
 export const FooterDisclaimer = styled.p`
@@ -48,5 +53,5 @@ export const FooterDisclaimer = styled.p`
   line-height: 28px;
   letter-spacing: 0;
   text-align: left;
-  width: 60%;
+  width: 80%;
 `

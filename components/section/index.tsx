@@ -14,7 +14,6 @@ const SectionItem = ({ ...props }) => {
   }
 
   const handleLink = (event: string): void => {
-    console.log('Link', event)
     window.open(event, '_blank')
   }
 

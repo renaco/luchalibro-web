@@ -2,11 +2,7 @@ import Document, { Head, Html, Main, NextScript } from 'next/document'
 import React from 'react'
 
 class MyDocument extends Document {
-  // static async getInitialProps(ctx: any) {
-  //   const initialProps = await Document.getInitialProps(ctx);
-  //   const { head } = ctx.renderPage();
-  //   return { head, ...initialProps };
-  // }
+
   render() {
     return (
       <Html lang="es-PE">
@@ -18,13 +14,13 @@ class MyDocument extends Document {
           <meta name="google" content="notranslate" />
           <meta name="mobile-web-app-capable" content="yes" />
           <meta name="apple-mobile-web-app-capable" content="yes" />
-          <meta name="keywords" content="nextjs, realworld" />
-          <meta property="og:locale" content="en_US" />
-          <meta property="og:site_name" content="next-realworld" />
-          <meta property="og:title" content="Next.js realworld example app" />
+          <meta name="keywords" content="cine narrativo, cine publicitario, videoclips y televisión, novela peruana, consultor creativo y docente en el IPP" />
+          <meta property="og:locale" content="en_PE" />
+          <meta property="og:site_name" content="christopher-vasquez" />
+          <meta property="og:title" content="Christopher Vásquez realworld | Guionista / Scriptwriter" />
           <meta
             property="og:description"
-            content="Next.js + SWR codebase containing realworld examples"
+            content="Christopher Vásquez | Guionista / Scriptwriter"
           />
           <link
             rel="stylesheet"

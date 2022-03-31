@@ -15,7 +15,6 @@ export const SectionImage = styled.div`
   width: 100%;
   @media only screen and (min-width: 480px) {
     width: 548px;
-    height: 781px;
   }
 `
 

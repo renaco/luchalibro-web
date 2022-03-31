@@ -7,7 +7,7 @@ export const Modal = ({ ...props }) => {
     props.handleModalClose()
   }
   return (
-    <ModalOverlay>
+    <ModalOverlay onClick={handleClose}>
       <ModalIframe>
         <iframe src={props.link}
           frameBorder='0'
