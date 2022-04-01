@@ -3,7 +3,13 @@ import { CONFIG } from './../../common/constants'
 
 export const FooterContainer = styled.footer`
   margin: auto;
-  padding: 100px 45px 30px;
+  padding: 100px 35px 30px;
+  @media only screen and (max-width: 320px) {
+    padding: 20px;
+  }
+  @media only screen and (max-width: 360px) {
+    padding: 70px 30px 30px;
+  }
   @media only screen and (min-width: 480px) {
     padding: 0;
     max-width: ${CONFIG.sizes.desktop};
@@ -11,6 +17,9 @@ export const FooterContainer = styled.footer`
 `
 
 export const FooterTittle = styled.h5`
+  @media only screen and (max-width: 320px) {
+    font-size: 2.5em;
+  }
   font-family: 'Inter';
   font-size: 50px;
   font-style: normal;
@@ -24,7 +33,10 @@ export const FooterTittle = styled.h5`
   }
 `
 
-export const FooterText = styled.p`
+export const FooterText = styled.pre`
+  @media only screen and (max-width: 320px) {
+    font-size: 1em;
+  }
   font-family: 'Azeret Mono';
   font-size: 22px;
   font-style: normal;

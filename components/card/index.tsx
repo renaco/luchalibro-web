@@ -9,10 +9,7 @@ export const Card = () => {
         <Image src="/cover-desktop.png" layout="responsive" alt="Card" width={127} height={127} />
       </CardProfileContainer>
       <CardProfileTitle>
-        <CardTitle>
-          <p>Christopher</p>
-          <p>Vásquez</p>
-        </CardTitle>
+        <CardTitle><span>Christopher</span> Vásquez</CardTitle>
         <CardSubtitle>Guionista / Scriptwriter</CardSubtitle>
       </CardProfileTitle>
     </CardProfile>

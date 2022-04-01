@@ -28,8 +28,10 @@ export const CoverImageContainerDesktop = styled.div`
   }
 `
 export const CoverImageContainerDesktopItem = styled.div`
-    margin: auto;
+  margin: auto;
+  @media only screen and (min-width: 1315px) {
     width: 1315px;
+  }
 `
 
 export const CoverArrowContainer = styled.div`
@@ -59,5 +61,6 @@ export const CoverBio = styled.p`
     max-width: 1165px;
     margin: auto;
     line-height: 34px;
+    width: 90%;
   }
 `
