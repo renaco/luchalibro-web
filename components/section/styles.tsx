@@ -14,7 +14,8 @@ export const SectionContent = styled.div`
 export const SectionImage = styled.div`
   width: 100%;
   @media only screen and (min-width: 480px) {
-    width: 548px;
+    /* width: 548px; */
+    max-width: 485px
   }
 `
 

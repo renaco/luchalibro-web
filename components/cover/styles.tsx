@@ -24,6 +24,7 @@ export const CoverImageContainerDesktop = styled.div`
     display: block;
     width: 100%;
     background: #000;
+    padding: 110px 0 65px;
   }
 `
 export const CoverImageContainerDesktopItem = styled.div`

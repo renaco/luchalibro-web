@@ -30,7 +30,7 @@ export const CardTitle = styled.h1`
     }
   }
   @media only screen and (min-width: 480px) {
-    margin: 0 0 30px;
+    margin: 0 0 20px;
   }
 `
 
@@ -53,7 +53,7 @@ export const CardProfileContainer = styled.div`
   margin: auto;
   @media only screen and (min-width: 480px) {
     width: 212px;
-    margin: 0 20px 0 10px;
+    margin: 0 40px 0 10px;
   }
 `
 

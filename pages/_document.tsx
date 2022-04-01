@@ -18,6 +18,7 @@ class MyDocument extends Document {
           <meta property="og:locale" content="en_PE" />
           <meta property="og:site_name" content="christopher-vasquez" />
           <meta property="og:title" content="Christopher Vásquez realworld | Guionista / Scriptwriter" />
+          <meta property="og:image" content="http://luchalibro.pe/public/cover-desktop.jpg" />
           <meta
             property="og:description"
             content="Christopher Vásquez | Guionista / Scriptwriter"

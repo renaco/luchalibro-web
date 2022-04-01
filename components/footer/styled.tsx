@@ -54,4 +54,8 @@ export const FooterDisclaimer = styled.p`
   letter-spacing: 0;
   text-align: left;
   width: 80%;
+  margin-bottom: 26px;
+  @media only screen and (min-width: 480px) {
+    margin-bottom: 78px;
+  }
 `
