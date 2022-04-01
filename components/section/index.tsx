@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import Image from 'next/image'
 import { SectionContent, SectionImage, SectionTitle, SectionButton, SectionPlay, SectionDescription } from './styles'
 import { Modal } from './../modal'
@@ -36,7 +36,6 @@ const SectionItem = ({ ...props }) => {
       />}
     </SectionContent>
   )
-
 }
 
 export const Section = ({ ...props }) => {

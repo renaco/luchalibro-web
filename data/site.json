@@ -2,49 +2,49 @@
   "movies": [
     {
       "title": "Chicha tu Madre",
-      "image": "/chicha-tu-madre.png",
+      "image": "/chicha-tu-madre.jpg",
       "link": "https://www.youtube.com/embed/iwHXJolVKiw",
       "label": "ver trailer",
       "theme": "dark"
     },
     {
       "title": "Rosa Chumbe",
-      "image": "/rosa-chumbe.png",
+      "image": "/rosa-chumbe.jpg",
       "link": "https://www.youtube.com/embed/KB5EDI2jYSI",
       "label": "ver trailer",
       "theme": "light"
     },
     {
       "title": "El día de mi suerte",
-      "image": "/el-dia-de-mi-suerte.png",
+      "image": "/el-dia-de-mi-suerte.jpg",
       "link": "https://www.youtube.com/embed/GLpru0dXp_M",
       "label": "ver trailer",
       "theme": "dark"
     },
     {
       "title": "Los Inocentes",
-      "image": "/los-inocentes.png",
+      "image": "/los-inocentes.jpg",
       "link": "https://www.instagram.com/losinocentespelicula/",
-      "label": "info",
+      "label": "Instagram",
       "theme": "light"
     },
     {
       "title": "La Grabadora",
-      "image": "/la-grabadora.png",
+      "image": "/la-grabadora.jpg",
       "link": "#",
-      "label": "",
+      "label": null,
       "theme": "dark"
     },
     {
       "title": "Juli",
-      "image": "/juli.png",
+      "image": "/juli.jpg",
       "link": "#",
-      "label": "",
+      "label": null,
       "theme": "light"
     },
     {
       "title": "El Jigre y la Tigrafa",
-      "image": "/el-tigre-y-la-jirafa.png",
+      "image": "/el-tigre-y-la-jirafa.jpg",
       "link": "https://pesopluma.net/tienda/el-jigre-y-la-tigrafa/",
       "label": "Editorial PESOPLUMA",
       "theme": "dark"

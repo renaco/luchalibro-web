@@ -1,4 +1,3 @@
-import React from 'react'
 import { ModalOverlay, ModalIframe, ModalClose } from './styles'
 import Image from 'next/image'
 
