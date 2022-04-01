@@ -6,5 +6,9 @@ export const CONFIG = {
   colors: {
     primary: 'primary',
     secondary: 'secondary'
-  }
+  },
+  fontFamily: {
+    primary: 'Azeret Mono',
+    secondary: 'Inter',
+  },
 }

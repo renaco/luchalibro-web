@@ -8,7 +8,7 @@ import data from '../data/site.json'
 
 const Home: NextPage = () => {
   return (
-    <div>
+    <>
       <Head>
         <title>Christopher Vásquez</title>
         <meta name="description" content="Christopher Vásquez | Guionista / Scriptwriter" />
@@ -22,7 +22,7 @@ const Home: NextPage = () => {
       </main>
 
       <Footer />
-    </div>
+    </>
   )
 }
 
