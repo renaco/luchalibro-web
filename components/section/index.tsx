@@ -20,7 +20,7 @@ const SectionItem = ({ ...props }) => {
   return (
     <SectionContent theme={props.movie.theme}>
       <SectionImage>
-        <Image src={props.movie.image} width={430} height={613} alt={props.movie.title} />
+        <Image src={props.movie.image} width={430} height={613} layout="responsive" alt={props.movie.title} />
       </SectionImage>
       <SectionDescription>
         <SectionTitle>{props.movie.title} </SectionTitle>

@@ -28,8 +28,10 @@ export const CoverImageContainerDesktop = styled.div`
   }
 `
 export const CoverImageContainerDesktopItem = styled.div`
-    margin: auto;
+  margin: auto;
+  @media only screen and (min-width: 1315px) {
     width: 1315px;
+  }
 `
 
 export const CoverArrowContainer = styled.div`
