@@ -1,5 +1,5 @@
-import styled from 'styled-components'
-import { CONFIG } from './../../common/constants'
+import styled from "styled-components";
+import { CONFIG } from "../../common/constants";
 
 export const FooterContainer = styled.footer`
   margin: auto;
@@ -14,37 +14,37 @@ export const FooterContainer = styled.footer`
     padding: 0;
     max-width: ${CONFIG.sizes.desktop};
   }
-`
+`;
 
 export const FooterTittle = styled.h5`
   @media only screen and (max-width: 320px) {
     font-size: 2.5em;
   }
-  font-family: 'Inter';
+  font-family: "Inter";
   font-size: 50px;
   font-style: normal;
   font-weight: 800;
   line-height: 160px;
   letter-spacing: 0;
   text-align: left;
-  color: #D7D7D7;
+  color: #d7d7d7;
   @media only screen and (min-width: 480px) {
     font-size: 60px;
   }
-`
+`;
 
 export const FooterText = styled.pre`
   @media only screen and (max-width: 320px) {
     font-size: 1em;
   }
-  font-family: 'Azeret Mono';
+  font-family: "Azeret Mono";
   font-size: 22px;
   font-style: normal;
   font-weight: 400;
   line-height: 34px;
   letter-spacing: 0;
   text-align: left;
-`
+`;
 
 export const FooterImageContainer = styled.div`
   transform: rotate(0.5turn);
@@ -55,10 +55,10 @@ export const FooterImageContainer = styled.div`
   @media only screen and (min-width: 480px) {
     margin-left: auto;
   }
-`
+`;
 
 export const FooterDisclaimer = styled.p`
-  font-family: 'Azeret Mono';
+  font-family: "Azeret Mono";
   font-size: 12px;
   font-style: normal;
   font-weight: 400;
@@ -70,4 +70,4 @@ export const FooterDisclaimer = styled.p`
   @media only screen and (min-width: 480px) {
     margin-bottom: 78px;
   }
-`
+`;

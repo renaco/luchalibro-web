@@ -1,4 +1,4 @@
-import styled from 'styled-components'
+import styled from "styled-components";
 
 export const ModalOverlay = styled.div`
   width: 100%;
@@ -10,7 +10,7 @@ export const ModalOverlay = styled.div`
   left: 0;
   background: rgb(0 0 0 / 70%);
   z-index: 3;
-`
+`;
 
 export const ModalIframe = styled.div`
   display: block;
@@ -25,7 +25,7 @@ export const ModalIframe = styled.div`
   ::after {
     padding-top: 56.25%;
     display: block;
-    content: '';
+    content: "";
   }
   iframe {
     position: absolute;
@@ -34,7 +34,7 @@ export const ModalIframe = styled.div`
     width: 100%;
     height: 100%;
   }
-`
+`;
 
 export const ModalClose = styled.div`
   position: absolute;
@@ -46,4 +46,4 @@ export const ModalClose = styled.div`
   justify-content: center;
   align-items: center;
   border-radius: 20px;
-`
+`;

@@ -1,10 +1,10 @@
-import styled from 'styled-components'
-import { CONFIG } from './../../common/constants'
+import styled from "styled-components";
+import { CONFIG } from "../../common/constants";
 
 export const CoverContent = styled.div`
   margin: 0;
   padding: 0;
-`
+`;
 
 export const CoverImageContainer = styled.div`
   margin: auto;
@@ -16,7 +16,7 @@ export const CoverImageContainer = styled.div`
   @media only screen and (min-width: 480px) {
     display: none;
   }
-`
+`;
 
 export const CoverImageContainerDesktop = styled.div`
   display: none;
@@ -26,13 +26,13 @@ export const CoverImageContainerDesktop = styled.div`
     background: #000;
     padding: 110px 0 65px;
   }
-`
+`;
 export const CoverImageContainerDesktopItem = styled.div`
   margin: auto;
   @media only screen and (min-width: 1315px) {
     width: 1315px;
   }
-`
+`;
 
 export const CoverArrowContainer = styled.div`
   display: block;
@@ -42,7 +42,7 @@ export const CoverArrowContainer = styled.div`
     margin: -25px auto 70px;
     width: 105px;
   }
-`
+`;
 
 export const CoverBio = styled.p`
   font-family: ${CONFIG.fontFamily.primary};
@@ -63,4 +63,4 @@ export const CoverBio = styled.p`
     line-height: 34px;
     width: 90%;
   }
-`
+`;
